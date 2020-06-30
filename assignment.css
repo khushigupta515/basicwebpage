@@ -1,38 +1,45 @@
-body
- 		{background: #DBBBDC ;
-	 	background:##DBBBDC ;
-  		background: -webkit-linear-gradient(#DBBBDC  ,#ccffcc );
-  		background: -moz-linear-gradient(#DBBBDC  ,#ccffcc );
-  		background: -o-linear-gradient(#DBBBDC  ,#ccffcc);
-  		background: linear-gradient(#DBBBDC  ,#ccffcc );
-  		font-size: 20px;
-  	    opacity: 0.7;}
-        body { padding-top: 30px;
-         }
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+*
 
+body
+    {
+
+    font-family: 'Montserrat', sans-serif;
+        color:black;
+        background:  #f2f2f2;
+        padding-top: 30px;
+      }
+     
  h1
  {text-align: center;
- 	font-size: 50px;
- 	opacity: 1;
+  font-size: 50px;
+  opacity: 1;
+  color: white;
  }
  h3
  {text-align: center;
- 	font-size: 35px;
- 	opacity: 1;
+  font-size: 35px;
+  opacity: 1;
   font-family: monaco,trend-sans-w00-four,sans-serif;
-  background: white;
+ 
+  color: white;
+  background: black;
  }
- h4{background: white;}
+
  button {
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
   text-align: center;
+  color: white;
 }
 nav
 {position: fixed;
 width:100%;}
+section
+{padding:1%;
+margin:1%;}
 
 
 ul {
@@ -105,6 +112,37 @@ section
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
+img:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+.contact-form-text
+{
+    display: block;
+    width: 50%;
+    height:100%;
+    box-sizing: border-box;
+    margin: auto;
+    background: black;
+    color: grey;
+  }
+  .Reachus
+  {background-image: url("contact-background.JPG") ;
+color: white;
+background-size: cover;}
+.ContactDetails
+{background-image: url("watch.JPG") ;
+color: white;
+background-size: cover;}
+.Wherewearelocated
+{background-image: url("park.JPG") ;
+color: white;
+background-size: cover;}
+.AboutMe
+{color:black;
+background:  #d1e0e0;}
 
 
         

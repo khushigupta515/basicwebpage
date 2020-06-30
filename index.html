@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- 	<meta charset =UTF-8>
- 	<title>assignment</title>
- 	<link rel="stylesheet" href="assignment.css">
- 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <meta charset =UTF-8>
+  <title>assignment</title>
+  <link rel="stylesheet" href="assignment.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
     <!-- Material Design Bootstrap -->
      <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet">
- 	<style>
- 		
-  	</style>
+  <style>
+    
+    </style>
     <script>
       function showInput()
       {alert("Donot forget to recommend others to check out our webpage");}
@@ -23,15 +24,18 @@
     else
       document.getElementById("dropdown-content1").style.display = 'block';
      }</script>
- 	 </head>
+     
+      <script>
+        
+ </script>
+   </head>
 
  <body>
- 	<header>
+  <header>
     <nav class="navbar navbar-default navbar-static-top navbar-inverse ">
       <div class="container">
        <ul>
-           <li><a href="#home page">Home</a> </li>
-           <li><a href="#About Me">About Me</a> </li>
+           <li><a href="#AboutMe">About Me</a> </li>
            <li><a href="#Where we are located">Where we are located</a></li>
            <li><a href="#Reach us">Reach us</a></li>
             <div class="dropdown">
@@ -46,6 +50,7 @@
       <a href="#MATERNITY SHOOT">Maternity Shoot</a>
     </div>
   </div>
+  </div>
   </li>
 </ul>
 </div>
@@ -54,42 +59,65 @@
 
 
 
-  <section id="home page">
- 	<h1 >Samir Gupta Photography</h1><br></style>
-  <div style="width: 20%;display: inline-block;margin:1%;text-align: center; ">
-  <img src="images/logo/logo.png" alt="logo" width="100%" height="60%" style="background: white;margin-bottom: 2%;text-align: center;">
-   </div>
-    <div style="width: 70%;display: inline-block;text-align: center;float: right; ">
-  <img src="images/logo/me2.png" alt="Samir Gupta" width="80%" height="20%">
+        <style>
+.mySlides {display:none;}
+
+</style>
+</head>
+
+<body>
+
+
+
+<div class="w3-contentw3-section" style="max-width:100%;height: 100px;padding:2%;object-fit: cover;">
+  <img class="mySlides" src="Woods/svetilka.jpg" style="width:100%;height: 400px;object-fit: cover;">
+  <img class="mySlides" src="Perplexingly%20amusing/watch.jpg" style="width:100%;height: 400px;object-fit: cover;">
+  <img class="mySlides" src="Perplexingly%20amusing/silence.jpg" style="width:100%;height: 400px;object-fit: cover;">
 </div>
- 	<p style="clear: both;"><strong>Hey!Here's my first website.<em>Samir Gupta</em> that is me,has been working and building on my photography skills since the past<strong> 20 years</strong>.<br>Photography is what my <em> passion</em> is ,it is all my heart and soul wanted.So here i am trying to present to you a small preview of my work.</strong></p><br>
- 	
- 	<button type="button" onclick="showInput()";>CHECKOUT</button>
-   
-    </section>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+<h3 style="background: none;">SAMIR GUPTA PHOTOGRAPHY</h3><br>
+  <div style="width: 40%; ">
+   <img src="images/logo/logo.png" alt="Samir Gupta" width="30%" height="30%" style="border-radius: 50%; filter: grayscale(60%);background: white;">
+  </div>
+  
+  
 
 
 
-
-
-
-	<section id ="About Me">
+  <section class ="AboutMe" id="AboutMe" style="color:black;
+        background:  #AEAAAF;" >
     
-	<h3>About Me</h3><br>
+  <h3>BEHIND THE CAMERA</h3><br>
   <div style="display: inline-block;width: 40%; ">
-	<img src="images/logo/me.png" alt="Samir Gupta" width="70%" height="20%">
+  <img src="images/logo/me.png" alt="Samir Gupta" width="70%" height="20%" style="border-radius: 50%; filter: grayscale(60%);">
   </div>
   <div style="display: inline-block;width: 50%;">I Samir Gupta is a professional photographer.From a very early age of 15 years,i got deeply attracted and rooted towards photography.It has been my hobby since then.Later after completing my graduation,the love for my work made me set up a professional studio.The love i bear for this art and my dedication towards it, has constantly brought me a step closer to success .<br><br><br><br><br><br>
   </div>
   </section>
 
 
-  <section id="My Captures" style="clear: both;">
+  <section id="My Captures" style="clear: both;background: black;color: white;">
     <h3>MY CAPTURES</h3><br>
-    <section id="WEDDING SHOOT">
+    <section id="WEDDING SHOOT" style="clear: both;">
 
-	<h4>WEDDING SHOOT</h4><br>
-	Photographs are the Love Language of our era. As for Wedding Photography – what's a better way to to preserve the memories of the most cherished day of your lives together? Wedding shoots are not only gorgeous but also are a legacy of a union, a memento of the birth of an eternal bond that is marriage. As an experienced wedding photographer, the most rewarding part of my work is the smile that lights up on my client's faces seeing the picturesque portrayal of their special day! Indian wedding traditions are truly magnificent – every wedding deserves to be captured by the lens so the memories live forever.<br>
+  <h4>WEDDING SHOOT</h4><br>
+  Photographs are the Love Language of our era. As for Wedding Photography – what's a better way to to preserve the memories of the most cherished day of your lives together? Wedding shoots are not only gorgeous but also are a legacy of a union, a memento of the birth of an eternal bond that is marriage. As an experienced wedding photographer, the most rewarding part of my work is the smile that lights up on my client's faces seeing the picturesque portrayal of their special day! Indian wedding traditions are truly magnificent – every wedding deserves to be captured by the lens so the memories live forever.<br>
     <div class="row">
  <div class="column" style="display: inline-block;float:left;">
   <img src="images/wedding/wedding1.png" alt="picture1" width="100%" height="40%" >
@@ -114,18 +142,19 @@
 
 
 
-<section id="PREWEDDING SHOOT">
+<section id="PREWEDDING SHOOT" style="clear: both;">
     <h4 style="clear:both";>PREWEDDING SHOOT</h4><br>
-	Pre-wedding shoots are the exciting new trend! It's truly an honor for a photographer to be able to capture the start of a new journey– one that marks the beginning of love and joy! 
+  Pre-wedding shoots are the exciting new trend! It's truly an honor for a photographer to be able to capture the start of a new journey– one that marks the beginning of love and joy! 
 My sole aim as a pre-wedding photographer is capturing natural moments, expressions, and real emotions shared by the couple. These candid moments are bound to make your album more vibrant!<br>
    <div class="row">
  <div class="column" style="display: inline-block;float:left;">
   <img src="images/prewedding/pre5.png" alt="picture1" width="100%" height="10%" >
 
 </div>
-</div>
+
 <div class="column" style="display: inline-block;float:right;">
   <img src="images/prewedding/pre6.png" alt="picture2" width="100%" height="%" >
+</div>
 </div>
 <div class="row">
  <div class="column" style="display: inline-block;float:left;">
@@ -137,9 +166,9 @@ My sole aim as a pre-wedding photographer is capturing natural moments, expressi
 
 
 
-    <section id="NEW BEGINNINGS">
+    <section id="NEW BEGINNINGS" style=" clear: both;">
     <h4 style="clear:both"; >NEW BEGINNINGS</h4><br>
-	Photographing Baby showers is my absolute favorite. These are occasions which are full of celebration as well as emotions – and only an experienced photographer can do justice to both. 
+  Photographing Baby showers is my absolute favorite. These are occasions which are full of celebration as well as emotions – and only an experienced photographer can do justice to both. 
 It's truly a pleasure to capture such pure moments of love and anticipation – celebration of the upcoming happiness.
 Trust me, a baby shower is day that you don't ever want to forget!<br>
     <div class="row">
@@ -163,12 +192,15 @@ Trust me, a baby shower is day that you don't ever want to forget!<br>
 
 
 
-<section id="MATERNITY SHOOT">
-<h4 style="clear:both"; >MATERNITY SHOOT:</h4><br>
-  Pregnancy is a beautiful phase because it gives a woman the joy and fulfilment which comes from bringing a new life into the world.There are two bodies, one inside the other. Two people live under one skin.Maternity shoots are pleasant ones as seeing the happy couple fills me with mirth and joy.  <br>
-    <div class="row">
+
+
+<section id="MATERNITY SHOOT" style="clear: both;">
+<h4 style="clear:both;"; >MATERNITY SHOOT:</h4><br>
+  <p>Pregnancy is a beautiful phase because it gives a woman the joy and fulfilment which comes from bringing a new life into the world.There are two bodies, one inside the other. Two people live under one skin.Maternity shoots are pleasant ones as seeing the happy couple fills me with mirth and joy.  </p>
+
+    <div class="row" style="background: black;">
  <div class="column" style="display: inline-block;float:left;">
-  <img src="images/maternityshoot/maternity1.png" alt="picture1" width="80%" height="500px" >
+  <img src="images/maternityshoot/maternity1.png" alt="picture1" width="80%" height="70%" >
 
 </div>
 </div>
@@ -176,28 +208,25 @@ Trust me, a baby shower is day that you don't ever want to forget!<br>
   <img src="images/maternityshoot/maternity2.png" alt="picture2" width="100%" height="40%" >
 </div>
 
-</div>
+
 <div class="column" style="display: inline-block;">
   <img src="images/maternityshoot/maternity4.png" alt="picture2" width="80%" height="10%" ><br>
 </div>
+</section>
+</section>
 
-   </section>
- </section>
+   
+   
+ 
  
 
 
-   <section id ="Dreams">
-    <h3 style="clear:both">Dreams</h3><br>
-    I wish to capture some thousand weddings and all kinds of shoots in my lifetime,so that I can bring a smile to a huge number of faces.Not only do these happy faces help me get better day by day but also makes me realise the beauty of my passion.<br>
-    <button type="button" >View Progress</button>
-  
-    
-</section>
+   
 
 
 
-<section id ="My Best Projects">
-  <h3>My Best Projects</h3><br>
+<section id ="My Best Projects" style="clear: both;">
+  <h3>WHY ME?</h3><br>
   All my projects have been done with utmost hardwork and sheer dedication.A small glimpse of my work is shown below.Hope it brings a smile on your face.
    <div class="row">
  <div class="column" style="display: inline-block;float:left;">
@@ -207,9 +236,11 @@ Trust me, a baby shower is day that you don't ever want to forget!<br>
 <div class="column" style="display: inline-block;float:right;">
   <img src="images/baby/baby1.png" alt="picture2" width="100%" height="40%" >
 </div>
+</div>
 <div class="row">
  <div class="column" style="display: inline-block;float:right;">
   <img src="images/baby/baby12.png" alt="picture3" width="100%" height="40%" >
+</div>
 </div>
 
 </section>
@@ -217,9 +248,9 @@ Trust me, a baby shower is day that you don't ever want to forget!<br>
 
 
 
-   <section id ="Where we are located" style="clear:both";>
-   	<h3 style="text-align: center;">Where we are located</h3><br>
-    <div>I have two studios of my own namely "Gupta studio" and "A Digital studio".One can get all possible facilities in both our studios,CUSTOMER SATISFACTION is indeed of prime importance to us</div>
+   <section class="Wherewearelocated" id="Where we are located"style="clear:both";>
+    <h3 style="text-align: center; ">LOCATE ME:</h3><br>
+    <div style="text-align: center;">I have two studios of my own namely "Gupta studio" and "A Digital studio".One can get all possible facilities in both our studios,CUSTOMER SATISFACTION is indeed of prime importance to us</div>
     <div class="maps" style="display: inline-block;float: left; margin: 3%; padding:3%;">
     <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap" ></script>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.232696514448!2d88.34556121492395!3d22.532954340103444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02773d082e49c5%3A0x8d25e91b740c8230!2sGupta%20Studio!5e0!3m2!1sen!2sin!4v1593374683973!5m2!1sen!2sin" width="400" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
@@ -234,27 +265,29 @@ Trust me, a baby shower is day that you don't ever want to forget!<br>
 
 
 
-   <section id ="Contact Details">
-    <h3>Contact us</h3><br>
-    <div>We are at Customer Service on all working hours.We are at your service through thick and thin.<br>
-      Following are the ways one can avail our service:<br>
-      <ol>
-      <li>Phone number:</li><br>
-           <i class="fa fa-phone" style="font-size:36px;color:red"></i>
-           <a href="tel:+9831014758"> Samir Gupta(manager):9831014758</a><br>
+   <section class ="ContactDetails" id="Reach us">
+    <h3 style="background: black;">CONTACT ME:</h3><br>
+    <div style="text-align: center;">We are at Customer Service on all working hours.We are at your service through thick and thin.<br>
+      Following are the ways one can avail our service:<br></div>
+      <div style="text-align: center;">
+      <ol >
+      <li >Phone number:</li><br>
+           <i class="fa fa-phone" style="font-size:36px;color:white"></i>
+           <a href="tel:+9831014758" style="color: white;"> Samir Gupta(manager):9831014758</a><br>
 
-           <i class="fa fa-phone" style="font-size:36px;color:red"></i>
-           <a href="tel:+9831761121"> Sanjay Gupta(manager):9831761121</a><br>
+           <i class="fa fa-phone" style="font-size:36px;color:white"></i>
+           <a href="tel:+9831761121" style="color: white;"> Sanjay Gupta(manager):9831761121</a><br>
 
-           <i class="fa fa-phone" style="font-size:36px;color:red"></i>
-           <a href="tel:+9831014758"> Studio Phone Number:</a><br>
-      <li>Email Id:</li><br>
-      <a href="mailto:guptastudio.samir@gmail.com">Samir Gupta:guptastudio.samir@gmail.com</a><br>
+           <i class="fa fa-phone" style="font-size:36px;color:white"></i>
+           <a href="tel:+9831014758" style="color: white;"> Studio Phone Number:24550562</a><br><br>
+      <li >Email Id:</li><br>
+      <a href="mailto:guptastudio.samir@gmail.com" style="color: white;">Samir Gupta:guptastudio.samir@gmail.com</a><br>
       
     </ol>
-    </div>
-    <div>
-      <button type="button" onclick="showInput2()";>You really need to click me</button>
+  </div>
+    
+    <div style="text-align: center;">
+      <button type="button" onclick="showInput2()" style="border-radius: 12px;padding: 0.8%;background: #A9A9A9 ;color:black; " >CLICK ME</button>
     </div>
   </section>
 
@@ -269,29 +302,33 @@ Trust me, a baby shower is day that you don't ever want to forget!<br>
 
 
 <footer style="clear: both;">
-    <section id ="Reach us">
-    	<h3>HELP US TO REACH YOU:</h3><br>
-      <div> Fill in your email id and name to help us reach you,We will try to get back to you as early as possible</div>
-    	
+    <section class ="Reachus" >
+      <h3 style="background: black;">HAVE A PROJECT?</h3><br>
+      <div style="text-align: center;padding-bottom: 1%;"> I enjoy doing any kind of photography related work. We are at your service- don't hesitate to fill the form below</div>
+      
 
 
     
-        
+        <div style="text-align: center;">
+
 
   <form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="fname"></label><br>
+  <input type="text" class="contact-form-text" id="fname" name="fname" placeholder="Your name" style="padding: 1%;"><br>
 
-  <label for="mail">Email</label><br>
-  <input type="email" id="mail" name="email" value=""><br><br>
+  <label for="mail"></label><br>
+  <input type="email" id="mail" class="contact-form-text" name="email" value="" placeholder="Your email" style="padding: 1%;"><br>
+  <label for="subject"></label><br>
+  <input type="text" class="contact-form-text" id="number" name="Number" placeholder="Your phone" style="padding: 1%;"><br>
 
 
-  <label for="subject">Subject:</label><br>
-  <input type="text" id="subject" name="SUB" value=""><br>
+  <label for="subject"></label><br>
+  <input type="text" class="contact-form-text" id="subject" name="SUB" value="" placeholder="Your subject"style="padding: 1%;"><br>
 
-  <label for="Message">Message:</label><br>
-  <input type="text" id="Message" name="message" value=""><br>
-  <input type="submit" value="SEND">
+  <label for="Message"></label><br>
+  <textarea type="text" class="contact-form-text" id="Message" name="message" value="" placeholder="Your message" style="padding: 3%;"></textarea><br>
+  <input type="submit" value="SEND" style="border-radius: 12px;padding: 0.8%;background: #A9A9A9">
+</div>
 </form> 
 
 </footer>
