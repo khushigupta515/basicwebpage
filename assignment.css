@@ -1,10 +1,10 @@
 body
- 		{background: #DE87F3;
-	 	background:#DE87F3;
-  		background: -webkit-linear-gradient(#DE87F3 ,#ccffcc );
-  		background: -moz-linear-gradient(#DE87F3 ,#ccffcc );
-  		background: -o-linear-gradient(#DE87F3 ,#ccffcc);
-  		background: linear-gradient(#DE87F3 ,#ccffcc );
+ 		{background: #DBBBDC ;
+	 	background:##DBBBDC ;
+  		background: -webkit-linear-gradient(#DBBBDC  ,#ccffcc );
+  		background: -moz-linear-gradient(#DBBBDC  ,#ccffcc );
+  		background: -o-linear-gradient(#DBBBDC  ,#ccffcc);
+  		background: linear-gradient(#DBBBDC  ,#ccffcc );
   		font-size: 20px;
   	    opacity: 0.7;}
         body { padding-top: 30px;
