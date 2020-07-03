@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+ @import url('https://fonts.googleapis.com/css?family=Montserrat');
 *
 
 body
@@ -128,23 +128,31 @@ img:hover {
     background: black;
     color: grey;
   }
-  .Reachus
-  {background-image: url("contact-background.JPG") ;
+.Reachus
+{
+background: url("contact-background.JPG") ;
 color: white;
-background-size: cover;}
+background-size: cover;
+}
 .ContactDetails
-{background-image: url("Perplexingly%20amusing/watch.jpg") ;
+{
 background: black;
+background-image:url("watch.JPG") ;
 color: white;
-background-size: cover;}
+background-size: cover;
+}
 .Wherewearelocated
-{background-image: url("park.JPG") ;
-background: black;
+{
+background: black; 
+background-image:url("park.JPG") ;
 color: white;
-background-size: cover;}
+background-size: cover;
+}
 .AboutMe
-{color:black;
-background:  #d1e0e0;}
+{ 
+color:black;
+background:  #d1e0e0;
+}
 
 
         
