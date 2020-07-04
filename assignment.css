@@ -132,23 +132,28 @@ img:hover {
     background: black;
     color: grey;
   }
-.Reachus
-{
-background: url("contact-background.JPG") ;
+
+
+  .Reachus
+  {background: black;
+    background-image: url("contact-background.jpg") ;
+
 color: white;
 background-size: cover;
 }
 .ContactDetails
+
 {
 background: black;
-background-image:url("watch.JPG") ;
+background-image:url("watch.jpg") ;
 color: white;
 background-size: cover;
 }
 .Wherewearelocated
+
 {
 background: black; 
-background-image:url("park.JPG") ;
+background-image:url("park.jpg") ;
 color: white;
 background-size: cover;
 }
