@@ -163,7 +163,15 @@ color:black;
 background:  #d1e0e0;
 }
 img
-{object-fit: cover;}
-
+{object-fit: cover;
+object-fit: scale-down;}
+nav{
+position: -webkit-sticky;
+}
+.sticky {
+  position: sticky;
+  top: 5px; /* When the element reaches top: 5px, it becomes fixed. */
+  z-index: 100;
+}
 
         
