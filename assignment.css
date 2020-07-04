@@ -136,7 +136,7 @@ img:hover {
 
   .Reachus
   {background: black;
-    background-image: url("./contact-background.jpg") ;
+    background-image: url("contact-background.jpg") ;
 
 color: white;
 background-size: cover;
@@ -162,6 +162,8 @@ background-size: cover;
 color:black;
 background:  #d1e0e0;
 }
+img
+{object-fit: cover;}
 
 
         
